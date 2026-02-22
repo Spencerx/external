@@ -26,7 +26,7 @@ class Admin implements ISettings {
 	 * @return TemplateResponse
 	 */
 	public function getForm() {
-		return new TemplateResponse('external', 'settings', [], 'blank');
+		return new TemplateResponse('external', 'settings', [], '');
 	}
 
 	/**
